@@ -11,28 +11,29 @@ body {
 }
 
 .container {
-    border: 1px solid black;
-    border-radius: 5%;
+    border: 2px solid black;
+    border-radius: 4%;
     overflow: hidden;
 }
 
-.input {
+header.input {
     background: #6943ff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     padding: 1.4rem;
 }
 
-.input h1 {
+header.input h2 {
     font-size: 1.5em;
     color: #ffffff;
     margin: 5px;
     width: 100%;
+    padding-bottom: 1rem;
 }
 
-.input input {
+header.input input {
     border: 1px solid #b295ff;
     background-color: #6943ff;
     width: 60px;
@@ -47,6 +48,11 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+.input label{
+    color:white;
+    font-size: 0.7em;
+    padding-bottom: 0px;
 }
 
 .output {
